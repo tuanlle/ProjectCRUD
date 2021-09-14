@@ -6,7 +6,7 @@ import CreateTodo from "./components/create-todo.component";
 import EditTodo from "./components/edit-todo.component";
 import TodosList from "./components/todos-list.component";
 
-import logo from "./logo.png";
+import logo from "./logo.svg";
 
 class App extends Component {
   render() {
@@ -15,7 +15,7 @@ class App extends Component {
         <div className="container">
           
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="https://codingthesmartway.com" target="_blank">
+            <a className="navbar-brand" href="https://codingthesmartway.com" target="_blank" rel="noreferrer">
               <img src={logo} width="30" height="30" alt="CodingTheSmartWay.com" />
             </a>
             <Link to="/" className="navbar-brand">MERN-Stack Todo App</Link>
